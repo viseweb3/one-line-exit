@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "I resign as the office fire warden: after three years showing everyone the exits, I am finally using one myself.";
+  "Dear Manager, I resign as the office fire warden: I spent three years pointing everyone to the exits, and today I am finally using one.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
